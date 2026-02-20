@@ -77,3 +77,7 @@ Aquí configuro el fondo, la tipografía general y centro el contenido.
 
 ## main.tsx
 Es el archivo que arranca React y renderiza el componente App.
+
+
+# PROBLEMAS ENCONTRADOS Y SOLUCIONES 
+  - Al principio tuve problemas con la paginación porque los personajes se reemplazaban en lugar de acumularse. La solución fue usar setCharacters((prev) => [...prev, ...res.data.results]) para añadir los nuevos personajes a los anteriores.
