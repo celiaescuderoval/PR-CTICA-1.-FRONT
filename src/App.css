@@ -1,0 +1,33 @@
+.mainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;   
+}
+
+.mainContainer input,
+.mainContainer button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mainContainer input {
+  margin-right: 10px;
+}
+
+.charactersContainer {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.paginationContainer {
+  margin-top: 30px;   
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer h1 {
+  color: #5f6060;
+}
